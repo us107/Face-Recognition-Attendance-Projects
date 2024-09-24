@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
-import face_recognition
+import face_recognition # type: ignore
+from face_recognition_models import models
 import os
 from datetime import datetime
 
